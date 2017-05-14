@@ -1,36 +1,24 @@
-
-h1{
-	font-family:Arial;
-	text-align:center;
-}
 p{
+	font-size:20px;
 	font-family:Arial;
-	font-size:20px;
-	
 }
-h6{
-	font-family:Arial;
-	font-size:20px;
-	
-}
-h5{
-	font-family:標楷體;
-	font-size:20px;
+h1{
 	text-align:center;
-	font-weight:bold;
 }
 h4{
-	font-family:標楷體,seirf;/*標楷體可改成各種字型名稱，seirf為字體有裝飾Sans-seirf為沒有裝飾，btw字型也可用網址嵌入html*/
-	font-size:20px;/*字體大小*/
-	font-weight:bold;/*粗體*/
-	font-style:italic;/*斜體*/
-	text-transform:uppercase;/*大小寫(英文)，皆為大寫uppercase，皆為小寫lowercase*/
-	text-align:center;/*對齊(left,center,right)*/
-	line-height:1.5em;/*行距(em是CSS中的記量單位，至於疊加問題，則是rem)*/
-	word-spacing:6px;/*英文單字間的距離*/
-	letter-spacing:1px;/*字與字的間距*/
-	
-	
-	
-
+	font-size:20px;
+	text-align:center;
+	background-color:#FFDCB9;
+}
+.topic{
+	font-size:40px;
+	font-family:標楷體;
+	text-transform:uppercase;
+	/*class於CSS使用型式*/
+}
+#offer{
+	font-size:35px;
+	font-weight:bold;
+	color:brown;
+	/*id於CSS使用型式*/
 }

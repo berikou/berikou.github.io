@@ -2,8 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-	<title>CSS字型：來賣甜點吧-莓果手札Beri's note</title>
-	<link href="frontend1.css" type="text/css" rel="stylesheet">
+	<title>HTML-----divs,classes與IDs</title>
+	<link href="frontend2.css" type="text/css" rel="stylesheet">
   </head>
   <body>
     
@@ -13,27 +13,46 @@
    <br>
    <ul>
      <a href="https://berikou.github.io/about/" target="_blank"><li>關於莓果</li></a>
-     <a href="https://berikou.github.io/front-end/" target="_blank"><li>網頁前端</li></a>
-	 <a href="https://berikou.github.io/life/" target="_blank"><li>隨手心得</li></a>
+     <a href="https://berikou.github.io/front-end/01/" target="_blank"><li>[網頁前端]CSS字型：來賣甜點吧</li></a>
+	 <a href="https://berikou.github.io/front-end/02/" target="_blank"><li>[網頁前端]HTML-----divs,classes與IDs</li></a>
+	 <a href="https://berikou.github.io/life/01/" target="_blank"><li>[隨手心得]打字練習</li></a>
 	
    </ul>
    <br>
    <h1>
-    CSS字型：來賣甜點吧
-   </h1>
-   <p>這次做出來的東西大概長這樣(以下只是範例，無實際商品)</p>
+    HTML-----divs,classes與IDs
+	</h1>
+   <p>想用CSS更改字型或圖片版面，但只有一個&lt;p&gt;，一個&lt;h1&gt;，或是一個&lt;body&gt;怎麼辦？<br>
+      先來看看上次字型的甜點價目表吧！(無實際商品)<br>
+	  這次加了個買五送一的優惠，畢竟成本不高嘛，不加點優惠促進買氣可是會倒店的。<br>
+   
+      先將價目表分成各個區塊：標題、品項與價格 以及優惠。<br>
+      這時需要用的就是&lt;div&gt;啦！(如下圖)<br>
+   </p>
+   <img src="http://imgur.com/dHt61hN.png" height="300" width="480">
+   
+   <div class="topic">
 	<h4>
     Welcome to beri's dessert store！<br><br>
+	</h4>
+	</div>
+    <h4>	
 	藍莓蛋糕--------------500/個<br>
 	巧克力布朗尼----------300/盒<br>
 	蘋果派----------------320/個<br>
 	藍莓派----------------320/個<br>
-    巧克力杯子蛋糕-------100/4個<br>
-	小水果塔-------------100/4個<br><br>
+    巧克力杯子蛋糕-------60/4個<br>
+	小水果塔-------------60/4個<br><br>
+	   
+	
 	</h4>
-	<p>雖然加上斜體有點怪就是了XD<br>
-	   詳細如下
-	</p>
-	<img src="http://imgur.com/8gEru8t.png" height="200" width="800">
+	
+   <div id="offer">
+	 
+	<h4>
+	每周五所有甜點買五送一！
+	</h4> 
+   </div>
+	
   </body>
 </html>
