@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-	<title>HTML-----divs,classes與IDs</title>
+	<title>HTML區塊-----divs,classes與IDs</title>
 	<link href="frontend2.css" type="text/css" rel="stylesheet">
   </head>
   <body>
@@ -29,13 +29,18 @@
       先將價目表分成各個區塊：標題、品項與價格 以及優惠。<br>
       這時需要用的就是&lt;div&gt;啦！(如下圖)<br>
    </p>
-   <img src="http://imgur.com/dHt61hN.png" height="300" width="480">
+   <img src="http://imgur.com/dHt61hN.png" height="342" width="432">
+   <p>
+    (以底色區分開)<br>
+   </p>
    
    <div class="topic">
 	<h4>
     Welcome to beri's dessert store！<br><br>
 	</h4>
 	</div>
+	
+	<div class="main">
     <h4>	
 	藍莓蛋糕--------------500/個<br>
 	巧克力布朗尼----------300/盒<br>
@@ -43,16 +48,31 @@
 	藍莓派----------------320/個<br>
     巧克力杯子蛋糕-------60/4個<br>
 	小水果塔-------------60/4個<br><br>
-	   
-	
 	</h4>
-	
+   </div>
+   
    <div id="offer">
-	 
-	<h4>
+	 <h4>
 	每周五所有甜點買五送一！
 	</h4> 
    </div>
+   <div>
+	 <p>
+	以上價目表之HTML的code在此：
+	</p> 
+	<img src="http://imgur.com/RvbeeoJ.png" height="300" width="320" >
+	<p>
+	以上價目表之CSS的code在此：
+    </p>	
+	<img src="http://imgur.com/j8tRvYl.png" height="200" width="320">
+   </div>
+   <div id="supplement">
+    <p>&lt;div&gt;可以區分出各個區塊，那麼class和id這兩種選擇器又是？<br>
+	   id與class皆是div的標籤，但id可被javascript所使用，而class則無法。<br>
+	   另一點則是：一個id只能在html中出現一次，但class可多次出現。<br>
+	   這兩種選擇器於CSS之用法如上圖CSS之code所示。
 	
+	</p>   
+   </div>
   </body>
 </html>
