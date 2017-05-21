@@ -6,10 +6,13 @@ h1{
 	font-family:Calibri;
 }
 ul{
-	
+	font-size: 16px;
 	font-family:Calibri;
 }
-p{
+.imformation{
 	font-family:Calibri;
-	font-size:16
+	font-size:16pt;
+	border: 5px solid black;
+	
+    
 }
