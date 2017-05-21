@@ -1,4 +1,6 @@
-﻿
+body{
+	line-height: 1.5rem;
+}
 h1{
 	font-family:Arial;
 	text-align:center;
